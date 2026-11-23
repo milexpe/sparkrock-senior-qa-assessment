@@ -1,0 +1,18 @@
+{
+  "name": "sparkrock-qa-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sparkrock Senior QA Engineer challenge - SauceDemo UI tests",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:validation": "playwright test tests/checkout-validation.spec.js",
+    "test:product": "playwright test tests/product-information.spec.js",
+    "test:recording": "playwright test tests/product-information.spec.js tests/checkout-validation.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0"
+  }
+}
