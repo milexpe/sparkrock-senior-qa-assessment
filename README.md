@@ -45,10 +45,6 @@ Validates four independent negative scenarios using a data-driven approach:
 - Missing postal code
 - All required fields missing
 
-Each scenario verifies the expected validation message and confirms that the application prevents the user from proceeding to the checkout overview.
-
-All other documented test cases, including TC-014, remain manual test designs and candidates for future automation.
-
 ## Project Structure
 
 ```text
